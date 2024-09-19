@@ -1,0 +1,18 @@
+import java.io.*;
+class A
+{
+    A()
+    {
+        System.out.println("Default constructor");
+
+    }
+}
+class Main
+{
+    public static void main(String args[])
+    {
+         System.out.println("Inside main method");
+         A a=new A();
+         System.out.println("object created successfully");
+    }
+}
